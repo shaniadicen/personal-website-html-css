@@ -174,7 +174,6 @@ header {
   opacity: 0.9;
 }
 
-
 .menu-option {
   transition: 0.8s ease;
   text-decoration: none;
@@ -275,7 +274,7 @@ h1, h2, h3, h4 {
 }
 
 .place li:last-of-type:after {
-  content: ''
+  content: '';
 }
 
 .location-highlight {
@@ -327,15 +326,28 @@ h1, h2, h3, h4 {
   display: flex;
 }
 
-.educ-text {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  color: #dedede;
-  font-family: 'Assistant', sans-serif;
-  text-align: left;
-  display: block;
-  position: relative;
-  left: 40%;
+@media screen and (min-width: 992px) {
+  .educ-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #dedede;
+    font-family: 'Assistant', sans-serif;
+    display: block;
+    left: 40%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .educ-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #dedede;
+    font-family: 'Assistant', sans-serif;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 .educ-details li {
@@ -575,7 +587,7 @@ ul, li {
 }
 
 .tools li:last-of-type:after {
-  content: ''
+  content: '';
 }
 
 .dropdown-content-tools {
