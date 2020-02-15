@@ -1,5 +1,5 @@
 # Personal Website
-A static personal website developed in plain HTML and CSS.
+This is a static website that does not use any framework.
 
 ## Technologies
 - HTML
